@@ -4,4 +4,4 @@ openai
 python-dotenv
 IPython
 google.generativeai
-PIL
+Pillow

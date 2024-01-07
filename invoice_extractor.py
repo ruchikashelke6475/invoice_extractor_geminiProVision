@@ -10,7 +10,7 @@ from PIL import Image
 import os
 import streamlit as st
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyBBlxFMG4yTbS5NRPTydIQo_z1X75VOuT4"
+os.environ['GOOGLE_API_KEY'] = st.secrets['GOOGLE_API_KEY']
 
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'] )
 
